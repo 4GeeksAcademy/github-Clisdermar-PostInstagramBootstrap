@@ -1,57 +1,35 @@
-#galeria .col-lg-4{
-    padding: 5px;
-     margin: 0 !important  
-
-}
-
-
-#galeria img{
-   width: 100%;
-   height: 250px;
-   
-
-}
-#galeria img:hover{
-    border: 5px solid white;
-
-}
-/*Seccion de galeria2*/
-#galeria2 header{
-    text-align: center;
-    font-size: 20px;
-}
-#galeria2 .pos{
-    background: rgb(202, 200, 200);
-    width: 700px;
-    margin: auto;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-
-}
-#galeria2 img{
-    width: 100%;
-}
-#galeria2 div.pos .post-header div:first-child{
-   
-    display: inline-block;
-    width:80%;
-    
-}
-#galeria2 div.pos .post-header div:last-child{
-    display: inline-block;
-    width: 18%;
-    text-align: right;
-}
-#galeria2 div.pos .post-header {
-    margin: o;
-}
-#galeria2 p{
-    padding: 0;
-    text-align: center;
-}
-#galeria2 img:hover{
-    border: 5px solid grey;
-
-}
+.post{
+    justify-content: center;
+    background-color: black;
+    padding: 250px;
+     
+  }
+  .post-header{
+     background-color: white;
+      display: flex;
+      margin-top: auto;
+     
+  
+      
+  }
+  #more{
+      margin-left: 400px;
+  }
+  .post-body{
+      background-color: white;
+      padding-top: 20px;
+  
+  }
+  .post-icono{
+      display: flex;
+  }
+  #book{
+      margin-left:380px;
+      overflow: hidden;
+  }
+  p{
+      
+      padding: 10px;
+      text-align: justify;
+  
+  }
