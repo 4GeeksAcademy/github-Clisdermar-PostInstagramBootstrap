@@ -1,8 +1,18 @@
+
+body{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #000000;
+    
+}
 .post{
     justify-content: center;
-    background-color: black;
     padding: 250px;
-     
+   
+    
   }
   .post-header{
      background-color: white;
@@ -12,24 +22,34 @@
   
       
   }
+  .post-header img{
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
   #more{
       margin-left: 400px;
+      font-size: 30px;
+     
   }
   .post-body{
       background-color: white;
-      padding-top: 20px;
+      padding: 10px;
+     
   
   }
   .post-icono{
       display: flex;
+      font-size: 30px;
   }
   #book{
-      margin-left:380px;
+      margin-left:350px;
       overflow: hidden;
+      font-size: 30px;
+      
   }
   p{
       
-      padding: 10px;
+    
       text-align: justify;
   
   }
